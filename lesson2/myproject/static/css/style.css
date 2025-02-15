@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+nav {
+  padding: 1rem;
+  background-color: #44b78B;
+  color: white;
+  font-size: 2.4rem;
+}
+
+main {
+  flex-grow: 1;
+  display: grid;
+  place-content: center;
+}
+
 body {
   min-height: 100vh;
   display: grid;
@@ -13,6 +26,16 @@ body {
   color: whitesmoke;
 }
 
-h1, p {
+h1,
+p {
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #81dbb8;
+}
+
+a:hover {
+  opacity: .85;
 }
